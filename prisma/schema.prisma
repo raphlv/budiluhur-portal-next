@@ -1,0 +1,121 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Faculty {
+  id            Int            @id @default(autoincrement())
+  name          String
+  code          String         @unique
+  slug          String         @unique
+  tagline       String
+  description   String         @db.Text
+  deanName      String
+  deanTitle     String
+  deanImage     String
+  bannerImage   String
+  colorAccent   String
+  studyPrograms StudyProgram[]
+  createdAt     DateTime       @default(now())
+}
+
+model StudyProgram {
+  id                 Int      @id @default(autoincrement())
+  facultyId          Int
+  faculty            Faculty  @relation(fields: [facultyId], references: [id], onDelete: Cascade)
+  name               String
+  degree             String   // S1, S2, S3, D3
+  slug               String   @unique
+  accreditation      String   // Unggul, Baik Sekali, A, B
+  description        String   @db.Text
+  careerProspects    String   @db.Text
+  totalCredits       Int      @default(144)
+  tuitionPerSemester String
+  bannerImage        String
+  isPopular          Boolean  @default(false)
+  createdAt          DateTime @default(now())
+}
+
+model NewsArticle {
+  id          Int      @id @default(autoincrement())
+  title       String
+  slug        String   @unique
+  category    String   // Akademik, Riset & Inovasi, Prestasi Mahasiswa, Kerjasama, Event
+  summary     String   @db.Text
+  content     String   @db.LongText
+  imageUrl    String
+  author      String   @default("Humas Budi Luhur")
+  views       Int      @default(0)
+  isFeatured  Boolean  @default(false)
+  publishedAt DateTime @default(now())
+  createdAt   DateTime @default(now())
+}
+
+model CampusEvent {
+  id              Int      @id @default(autoincrement())
+  title           String
+  slug            String   @unique
+  date            String
+  time            String
+  location        String
+  organizer       String
+  category        String
+  description     String   @db.Text
+  imageUrl        String
+  registrationUrl String?
+  isUpcoming      Boolean  @default(true)
+  createdAt       DateTime @default(now())
+}
+
+model AdmissionLead {
+  id            Int      @id @default(autoincrement())
+  fullName      String
+  email         String
+  whatsapp      String
+  schoolOrigin  String
+  programChoice String
+  entryLevel    String   // Reguler S1, Kelas Karyawan, Pascasarjana S2/S3
+  message       String?  @db.Text
+  status        String   @default("Pending") // Pending, Contacted, Enrolled
+  createdAt     DateTime @default(now())
+}
+
+model Innovation {
+  id             Int      @id @default(autoincrement())
+  name           String
+  slug           String   @unique
+  category       String   // Electric Vehicle, Green Technology, Renewable Energy, Mobile Apps
+  description    String   @db.Text
+  specs          String   @db.Text
+  imageUrl       String
+  youtubeVideoId String?
+  achievement    String   @db.Text
+  createdAt      DateTime @default(now())
+}
+
+model Facility {
+  id          Int      @id @default(autoincrement())
+  name        String
+  category    String   // Akademik, Laboratorium, Olahraga & Seni, Area Komunal, Ibadah
+  description String   @db.Text
+  location    String
+  imageUrl    String
+  createdAt   DateTime @default(now())
+}
+
+model CampusBranch {
+  id           Int      @id @default(autoincrement())
+  name         String
+  city         String
+  address      String   @db.Text
+  phone        String
+  email        String
+  googleMapsUrl String  @db.Text
+  isMainCampus Boolean  @default(false)
+  imageUrl     String
+  createdAt    DateTime @default(now())
+}

@@ -1,6 +1,6 @@
-<div align="center">
+﻿<div align="center">
 
-# 🏛️ Universitas Budi Luhur - Modern University Web Portal
+# ðŸ›ï¸ Universitas Budi Luhur - Modern University Web Portal
 
 ### *Next-Generation Academic, Research, and Admissions Web Platform*
 
@@ -16,7 +16,7 @@
 
 </div>
 
-## 🌟 Overview
+## ðŸŒŸ Overview
 
 **Universitas Budi Luhur Web Portal** is the next-generation digital web portal for Universitas Budi Luhur ([budiluhur.ac.id](https://www.budiluhur.ac.id/)), re-engineered from legacy WordPress into a blazing-fast, modern architecture built on **Next.js 14 App Router, TypeScript, Tailwind CSS, Prisma ORM, and MySQL**.
 
@@ -24,9 +24,9 @@ It features full academic directories for 5 flagship faculties (FTI, FEB, FKDK, 
 
 ---
 
-## 🚀 Key Features
+## ðŸš€ Key Features
 
-### 1. 🎓 Comprehensive Faculty & Academic Directory
+### 1. ðŸŽ“ Comprehensive Faculty & Academic Directory
 - Interactive directory for 5 Faculties & Graduate School:
   - **FTI** (Fakultas Teknologi Informasi)
   - **FEB** (Fakultas Ekonomi dan Bisnis)
@@ -36,26 +36,26 @@ It features full academic directories for 5 flagship faculties (FTI, FEB, FKDK, 
   - **Pascasarjana** (Magister S2 & Doktoral S3)
 - Dynamic prodi routes with tuition fee estimations, accreditation status (Unggul), total SKS credits, and career path insights.
 
-### 2. ⚡ National EV & Green Tech Innovation Showcase
+### 2. âš¡ National EV & Green Tech Innovation Showcase
 - Detailed specs and achievements for **BLITS** (Mobil Listrik Penjelajah Nusantara 15.000 KM) and **BLSEV-01** (Motor Listrik Sport Balap Sirkuit Sentul).
 - **Bank Sampah Budi Luhur** circular economy model and **WVO Ford Ranger** biofuel explorer.
 
-### 3. 📝 Integrated PMB Admissions Hub & Lead Management
+### 3. ðŸ“ Integrated PMB Admissions Hub & Lead Management
 - Registration tracks: Reguler Pagi, Kelas Karyawan Malam/Sabtu, Beasiswa Prestasi & DKKA 100%.
 - Interactive online application form with live MySQL persistence (`AdmissionLead` table) and WhatsApp click-to-chat integration.
 
-### 4. 📰 Campus Journalism & BLU Berdampak Portal
+### 4. ðŸ“° Campus Journalism & BLU Berdampak Portal
 - Category filters (Akademik, Riset, Prestasi Mahasiswa, Kerjasama, Event) with automatic view count tracking and social sharing.
 
-### 5. 📍 Multi-Campus Directory & Google Maps Embed
+### 5. ðŸ“ Multi-Campus Directory & Google Maps Embed
 - Kampus Pusat (Petukangan, Jakarta Selatan), Kampus Roxy (Jakarta Pusat), and Kampus Salemba (Jakarta Pusat).
 
-### 6. 📊 Internal CMS Admin Dashboard
+### 6. ðŸ“Š Internal CMS Admin Dashboard
 - Metrics overview, recent PMB applicants list, and WhatsApp lead responder.
 
 ---
 
-## 🛠️ Technology Stack
+## ðŸ› ï¸ Technology Stack
 
 - **Framework**: Next.js 14 (App Router, Server Components & Server Actions)
 - **Frontend UI**: React 18, Tailwind CSS, FontAwesome 6, Poppins & Inter Google Fonts
@@ -64,7 +64,7 @@ It features full academic directories for 5 flagship faculties (FTI, FEB, FKDK, 
 
 ---
 
-## 💻 Installation & Quick Start
+## ðŸ’» Installation & Quick Start
 
 ```bash
 # 1. Clone repository
@@ -95,7 +95,7 @@ npm start
 
 ---
 
-## 👤 Author & Maintainer
+## ðŸ‘¤ Author & Maintainer
 
 - **Developer**: Pangeran Ryan Pahlevi ([@raphlv](https://github.com/raphlv))
 - **Email**: pangeranryan080504@gmail.com
@@ -104,5 +104,8 @@ npm start
 ---
 
 <div align="center">
-  <sub>© 2026 Universitas Budi Luhur. Cerdas Berbudi Luhur. All Rights Reserved.</sub>
+  <sub>Â© 2026 Universitas Budi Luhur. Cerdas Berbudi Luhur. All Rights Reserved.</sub>
 </div>
+
+
+<!-- Last updated: 2026-08-21 09:00:04 -->

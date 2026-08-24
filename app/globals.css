@@ -6,11 +6,19 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
 
 :root {
-  --ubl-navy: #00255A;
-  --ubl-navy-dark: #00122E;
-  --ubl-blue: #004FC2;
-  --ubl-yellow: #FFE600;
-  --ubl-emerald: #10B981;
+  /* Official UBL Primary Color */
+  --ubl-primary: #173860;
+  --ubl-navy: #173860;
+  --ubl-navy-dark: #0e243e;
+  --ubl-navy-deep: #081626;
+  --ubl-navy-light: #1f4b82;
+
+  /* Official UBL 5 Secondary Colors */
+  --ubl-sky: #1ca3dc;
+  --ubl-yellow: #fced17;
+  --ubl-red: #de1f26;
+  --ubl-white: #ffffff;
+  --ubl-black: #000000;
 }
 
 body {
@@ -30,30 +38,34 @@ body {
   display: inline-block;
   white-space: nowrap;
   padding-left: 100%;
-  animation: scrollText 30s linear infinite;
+  animation: scrollText 32s linear infinite;
 }
 
 /* GLASSMORPHISM & SHADOWS */
 .glass-panel {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(23, 56, 96, 0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .glass-card-light {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(226, 232, 240, 0.8);
 }
 
 .glow-yellow {
-  box-shadow: 0 0 25px rgba(255, 230, 0, 0.45);
+  box-shadow: 0 0 25px rgba(252, 237, 23, 0.45);
 }
 
-.glow-blue {
-  box-shadow: 0 10px 30px rgba(0, 79, 194, 0.3);
+.glow-sky {
+  box-shadow: 0 10px 30px rgba(28, 163, 220, 0.3);
+}
+
+.glow-navy {
+  box-shadow: 0 10px 30px rgba(23, 56, 96, 0.35);
 }
 
 /* CUSTOM SCROLLBAR */
@@ -63,14 +75,14 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #00122E;
+  background: #0e243e;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #00255A;
+  background: #173860;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #FFE600;
+  background: #fced17;
 }

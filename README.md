@@ -1,6 +1,6 @@
-<div align="center">
+﻿<div align="center">
 
-# 🎓 Universitas Budi Luhur Portal — Modern Campus Platform
+# Universitas Budi Luhur Portal â€” Modern Campus Platform
 
 ### *Academic Information System, Faculty Hub, & Prisma ORM Architecture*
 
@@ -15,53 +15,45 @@
 
 </div>
 
-## 📌 About The Project
+## About The Project
 
-An integrated academic portal for **Universitas Budi Luhur** featuring dynamic faculty routing, student admission (PMB) guidance, course directories, and Prisma ORM relational database schema.
-
----
-
-## ✨ Key Modules & Features
-
-- **🏛️ 5 Faculty Portals**: Detailed course information for FTI (Teknologi Informasi), FEB (Ekonomi & Bisnis), FKIK (Komunikasi & Desain Kreatif), FIKOM, and Pascasarjana.
-- **📚 Academic Course Index**: Comprehensive syllabus, credit lookup, and curriculum paths.
-- **📝 PMB Online Registration**: New student admission guidance, fee estimator, and schedule timeline.
-- **⚡ Prisma ORM Relational Schema**: Type-safe database queries and migrations for academic models.
+An integrated academic portal for Universitas Budi Luhur featuring dynamic faculty routing, student admission (PMB) guidance, course directories, and Prisma ORM relational database schema.
 
 ---
 
-## 🛠️ Technology Stack
+## Key Modules and Features
 
-- **Framework**: Next.js 14 (App Router)
-- **Database ORM**: Prisma ORM & MySQL
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Icons**: Lucide-React
+- 5 Faculty Portals: Detailed course information for FTI (Teknologi Informasi), FEB (Ekonomi & Bisnis), FKIK (Komunikasi & Desain Kreatif), FIKOM, and Pascasarjana.
+- Academic Course Index: Comprehensive syllabus, credit lookup, and curriculum paths.
+- PMB Online Registration: New student admission guidance, fee estimator, and schedule timeline.
+- Prisma ORM Relational Schema: Type-safe database queries and migrations for academic models.
 
 ---
 
-## 🚀 Getting Started
+## Technology Stack
 
-```bash
-# Clone the repository
+- Framework: Next.js 14 (App Router)
+- Database ORM: Prisma ORM and MySQL
+- Language: TypeScript
+- Styling: Tailwind CSS
+- Icons: Lucide-React
+
+---
+
+## Getting Started
+
+`ash
 git clone https://github.com/raphlv/budiluhur-portal-next.git
 cd budiluhur-portal-next
-
-# Install dependencies
 npm install
-
-# Run database migration
 npx prisma migrate dev
-
-# Run development server
 npm run dev
-```
+`
 
 ---
 
-## 👨‍💻 Developer & Maintainer
+## Developer and Maintainer
+Pangeran Ryan Pahlevi â€” https://pangeranryan.vercel.app
 
-**Pangeran Ryan Pahlevi**  
-- Portfolio: [https://pangeranryan.vercel.app](https://pangeranryan.vercel.app)  
-- GitHub: [@raphlv](https://github.com/raphlv)  
-- Email: pangeranryan080504@gmail.com  
+<!-- Last verified: 2026-09-01 13:10:43 by Pangeran Ryan Pahlevi -->
+

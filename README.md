@@ -1,8 +1,8 @@
-﻿<div align="center">
+<div align="center">
 
-# Universitas Budi Luhur Portal â€” Modern Campus Platform
+# Universitas Budi Luhur Portal - Modern Campus Platform
 
-### *Academic Information System, Faculty Hub, & Prisma ORM Architecture*
+### *Academic Information System, Faculty Hub, and Prisma ORM Architecture*
 
 ![Next.js](https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.4-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -23,7 +23,7 @@ An integrated academic portal for Universitas Budi Luhur featuring dynamic facul
 
 ## Key Modules and Features
 
-- 5 Faculty Portals: Detailed course information for FTI (Teknologi Informasi), FEB (Ekonomi & Bisnis), FKIK (Komunikasi & Desain Kreatif), FIKOM, and Pascasarjana.
+- 5 Faculty Portals: Detailed course information for FTI (Teknologi Informasi), FEB (Ekonomi dan Bisnis), FKIK (Komunikasi dan Desain Kreatif), FIKOM, and Pascasarjana.
 - Academic Course Index: Comprehensive syllabus, credit lookup, and curriculum paths.
 - PMB Online Registration: New student admission guidance, fee estimator, and schedule timeline.
 - Prisma ORM Relational Schema: Type-safe database queries and migrations for academic models.
@@ -42,7 +42,7 @@ An integrated academic portal for Universitas Budi Luhur featuring dynamic facul
 
 ## Getting Started
 
-`ash
+`ash
 git clone https://github.com/raphlv/budiluhur-portal-next.git
 cd budiluhur-portal-next
 npm install
@@ -53,7 +53,4 @@ npm run dev
 ---
 
 ## Developer and Maintainer
-Pangeran Ryan Pahlevi â€” https://pangeranryan.vercel.app
-
-<!-- Last verified: 2026-09-01 13:10:43 by Pangeran Ryan Pahlevi -->
-
+Pangeran Ryan Pahlevi - https://pangeranryan.vercel.app
